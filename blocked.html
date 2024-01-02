@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title id="site_status_title">Blackcat Protection</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1">
+    <link href="./css/blocked.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="container" style="width: 100%">
+        <header>
+
+            <div class="top">
+                <div class="top__logo">
+                    <img src="../images/sheild.png" alt="Blackcat Protection" style="height: auto;width: 75px;"><b style="color:#01fcfb;"> Blackcat Protection</b>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <div class="site-status">
+
+            <div class="site-status__content">
+                <div class="site-status__side-logo"><img src="../images/phishing.png" style="width: 200px;">
+                </div>
+                <div class="content__description" style="justify-content: center;">
+                    <div class="description__header">
+                        <p id="site_status_header_text" class="header__status--text">Website status:</p><span>&nbsp;
+                            &nbsp;</span><br>
+                        <div class="header__status--state">
+                            <p id="site_status_state" class="status__rating--danger">Risky</p><span>&nbsp;
+                                &nbsp;</span><img src="../images/danger.png" style="width: 28px;">
+                        </div>
+                    </div>
+                    <div class="description__url">
+
+                        <span class="card-text">Blocked URL:
+                            <span id="blocked-url" class="card-text font-weight-bold text-danger"></span></span>
+
+
+                    </div>
+                    <div class="description__body">
+                        <p id="site_status_body_text">This site contains potentially dangerous content that could harm your computer. We blocked it so you can continue browsing with confidence.</p>
+                    </div>
+                    <div class="description__actions"><a id="site_status_block_page_accept_risk" class="actions__accept">Visit anyway</a> <a id="site_status_block_page_go_back" class="actions__decline" x-mclocalizedtext="true" tabindex="0">Go back</a></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <img class="wave" src="../images/wave_red.svg" style="z-index: -4;">
+    </section>
+</body>
+
+<script src="blocked.js"></script>
+
+
+</html>

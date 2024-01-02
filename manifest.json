@@ -1,0 +1,35 @@
+{
+    "name": "Blackcat Protection",
+    "version": "1.0",
+    "description": "This will tell you that the URL is Phising URL or a valid URL",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "./images/sheild128.png"
+    },
+    "icons": {
+        "48": "./images/sheild48.png",
+        "128": "./images/sheild128.png",
+        "256": "./images/sheild256.png"
+    },
+    "permissions": [
+        "tabs",
+        "storage",
+        "<all_urls>"
+    ],
+    "content_scripts": [{
+        "matches": ["*://*/*"],
+        "js": ["blocked.js"],
+        "run_at": "document_end"
+    }],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Blackcat Protection"
+    }
+}

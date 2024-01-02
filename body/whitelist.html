@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title id="site_status_title">Blackcat Protection</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1">
+    <link href="../css/site_status_site_report.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../script.js"></script>
+</head>
+
+<body>
+    <section class="container" style="width: 400px;position: relative;">
+        <header>
+
+            <div class="top">
+                <div class="top__logo">
+                    <img src="../images/sheild.png" alt="Blackcat Protection" style="height: auto;width: 40px;"><b style="color:#01fcfb;"> Blackcat Protection</b>
+
+                </div>
+                <div class="top__menu-icons">
+                    <a href="../popup.html"><img id="back-btn" src="../images/back.png" alt="Back" role="button"></a>
+                </div>
+                <div class="top__menu-icons">
+                    <img id="close-btn" src="../images/close.png" alt="Close" role="button">
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="middlebody">
+                    <img src="../images/stamp.png" style="width:100px; display:block; margin: 0 auto;">
+                </div>
+            </div>
+        </header>
+
+        <div class="main">
+            <div id="main_container" class="main__container">
+                <div id="whitelist">
+                    <script defer="defer" src="../whitelist.js"></script>
+                    <div class="content whitelist" style="display: block;">
+                        <div id="sidebar_title" class="innerbody__title" style="text-align: center;">SITES YOU TRUST
+                        </div>
+                        <div class="top__menu-icons" style="text-align: end;">
+                            <a href="../popup.html"><img id="back-btn" src="../images/plus.png" alt="Back" role="button" style="width: 20px;position: relative;display: inline-block;margin: 0 5px 10px 0;"></a>
+                            <a href="../popup.html"><img id="back-btn" src="../images/substract.png" alt="Back" role="button" style="width: 20px;position: relative;display: inline-block;margin: 0 5px 10px 0;"></a>
+                        </div>
+
+                        <div class="whitelist__container"><input id="settings_whitelist_input" class="whitelist__container__input" x-inputplaceholder="true" placeholder="Type in a web address..."> <input id="remove-btn" class="whitelist__container__remove" type="button" aria-label="remove"
+                                disabled="">
+                            <input id="add-btn" class="whitelist__container__add" type="button" aria-label="add" disabled="">
+                        </div>
+
+                        <div class="content whitelist" style="display: block;">
+                            <div id="sidebar_title" class="innerbody__title" style="text-align: center;">WhiteList
+                            </div>
+
+
+                            <ul id="whitelist-list" class="whitelist__list" tabindex="0" aria-live="Whitelist Links">
+                            </ul>
+                        </div>
+                    </div>
+    </section>
+</body>
+
+</html>

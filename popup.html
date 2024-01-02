@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+    <title>Blackcat Protection</title>
+
+
+</head>
+
+<body>
+
+    <div id="open-popup" style="top: 0px; padding: 0px; margin: 0px; z-index: 2147483646;position: relative; border: none; 
+    opacity: 1; left: auto; right: 0px; display: block; max-width: none; box-shadow: rgba(0, 0, 0, 0.2) 10px 0px 35px;
+     background-color: rgb(255, 255, 255); transition: opacity 0.4s ease 0s, transform 0.4s ease 0s; 
+     transform: translate3d(0px, 0px, 0px); width: 400px; overflow:hidden;">
+
+
+        <section>
+            <header>
+
+                <div class="top">
+                    <div class="top__logo">
+                        <img src="./images/sheild.png" alt="Blackcat Protection" style="height: auto;width: 40px;"><b style="color:#01fcfb; text-shadow: .2px .2px 1px #443751;"> Blackcat Protection</b>
+
+                    </div>
+                    <div class="top__menu-icons">
+                        <img id="settings" src="./images/home.png" alt="Home" role="button">
+                    </div>
+                    <div class="top__menu-icons">
+                        <img id="close-btn" src="./images/close.png" alt="Close" role="button">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="middlebody">
+                        <a role="button" target="_blank" id="sidebar_view_site_report" class="footer-top__site-report">
+                            <img src="./images/analysis.png" style="width:100px; display:block; margin: 0 auto;">
+                            <h1 class="analysis_text">View site analysis</h1>
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+
+
+
+
+            <div class="innerbody">
+                <div id="sidebar_title" class="innerbody__title">We're helping keep you safe online</div>
+                <div id="sidebar_subtitle" class="innerbody__title-message">Here's what we've done so far:</div>
+                <div class="innerbody__stats-box" role="list">
+                    <div class="innerbody__stats-box__item" role="listitem">
+                        <img src="./images/seo.png">
+                        <span>
+                            <span id="num-pages-scanned" class="innerbody__stats-box__item__number">10k+</span> &nbsp;
+                        <span id="sidebar_pages_scanned">pages scanned</span>
+                        </span>
+                    </div>
+                    <div id="sidebar_statsrow_unsafe_blocked" class="innerbody__stats-box__item" role="listitem">
+                        <img src="./images/block.png">
+                        <span>
+                            <span id="num-unsafe-blocked" class="innerbody__stats-box__item__number">0</span> &nbsp;
+                        <span id="sidebar_unsafe_blocked">unsafe items blocked</span>
+                        </span>
+                    </div>
+                    <div class="innerbody__stats-box__item" role="listitem">
+                        <img src="./images/danger.png">
+                        <span>
+                            <span id="num-pages-blocked" class="innerbody__stats-box__item__number">51</span> &nbsp;
+                        <span id="sidebar_dangerous_blocked">dangerous pages blocked</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-top">
+                    <a target="_blank" id="sidebar_get_help" class="footer-top__help">Add url to whitelist</a>
+                </div>
+                <div class="footer-bottom" role="contentinfo">
+                    <div id="sidebar_version" class="footer-bottom__version">
+                        Version 1.0</div>
+                    <a id="sidebar_terms" class="footer-bottom__terms">Terms &amp; Conditions</a>
+                </div>
+            </footer>
+        </section>
+    </div>
+</body>
+
+</html>
